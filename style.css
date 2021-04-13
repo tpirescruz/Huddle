@@ -214,6 +214,14 @@ footer {
     justify-content: center;
 }
 
+.copy {
+    text-align: right;
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     h1 {
         font-family: 'Poppins';
@@ -253,12 +261,12 @@ footer {
 
     .main-card {
         height: max-content;
-        padding: 2% 0;
+        padding: 5%;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        margin: 2%;
+        margin: 5%;
     }
 
     .main-card img{
@@ -279,20 +287,34 @@ footer {
 
     }
     .community {
-        width: 90%;
+        font-size: 1.8rem;
         top: 5rem;
+        margin: auto;
+        width: auto;
     }
 
     .community button {
-        width: 90%;
+        width: 20rem;
+        height: 5rem;
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 12rem 2rem 2rem 2rem;
     }
 
     .footer-container{
+        flex-direction: column;
         text-align: left;
     }
 
     .contact-container {
         width: 100%;
+        margin: 2rem 0;
+    }
+    .logo {
+        margin: 2rem auto;
+;
     }
 
 }
