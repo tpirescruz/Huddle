@@ -54,9 +54,8 @@ button {
 
 .try {
     background-color: white;
-    background-position: top;
     width: 20%;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 700;
     padding: 1% 1%;
 }
@@ -103,6 +102,7 @@ main .main-card:nth-child(even) {
     flex-direction: row-reverse;
 
 }
+
 .main-card {
     display: flex;
     justify-content: space-between;
