@@ -52,6 +52,10 @@ button {
     border: none;
 }
 
+.try a{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 .try {
     background-color: white;
     width: 20%;
